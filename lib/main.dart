@@ -79,7 +79,7 @@ class MyApp extends StatelessWidget {
                               child: Container(
                                 alignment: Alignment.centerLeft,
                                 child:
-                                Text("캐논 DSLR 100D (단렌즈, 충전기 16기가SD 포함)"),
+                                    Text("캐논 DSLR 100D (단렌즈, 충전기 16기가SD 포함)"),
                               ),
                             ),
                             Flexible(
@@ -115,7 +115,7 @@ class MyApp extends StatelessWidget {
                                   mainAxisAlignment: MainAxisAlignment.end,
                                   children: [
                                     Icon(
-                                      Icons.heart_broken,
+                                      Icons.favorite,
                                       size: 17,
                                       color: Colors.red,
                                     ),
