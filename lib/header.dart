@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class Header extends StatelessWidget implements PreferredSizeWidget {
-  const Header({super.key});
+  int number;
+  Header({super.key, required this.number});
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +12,7 @@ class Header extends StatelessWidget implements PreferredSizeWidget {
         color: Colors.white,
       ),
       title: Text(
-        "Contact",
+        "Contact $number",
         style: TextStyle(color: Colors.white),
       ),
       backgroundColor: Colors.cyan[700],
