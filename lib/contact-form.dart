@@ -32,7 +32,7 @@ mixin ContactFormWidget {
 
     Widget? child = Container(
       margin: EdgeInsets.all(20),
-      width: 350,
+      width: 50,
       height: 155,
       child: Column(
         children: [
